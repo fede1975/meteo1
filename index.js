@@ -1,5 +1,4 @@
-
- const axios = require("axios");
+const axios = require("axios");
 let apiKey = '71c406cd0696048af1069afda7277927';
 let city = 'Noale';
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
