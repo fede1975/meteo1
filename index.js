@@ -1,4 +1,4 @@
-let request = require('request');
+
  const axios = require("axios");
 let apiKey = '71c406cd0696048af1069afda7277927';
 let city = 'Noale';
@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 
 
 app.get('/', async (req, res) => {
-  //res.send('prova')
+
  
 const response = await axios.get(url);
  
@@ -36,5 +36,3 @@ app.listen(port, () => {
 
   console.log(`Example app listening on port ${port}`)
 })
-
-
